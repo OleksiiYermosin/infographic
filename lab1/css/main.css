@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, serif;
+    color: rgb(64, 64, 64);
+}
+
+aside {
+    width: 15%;
+    background: rgba(75, 192, 192, 0.2);
+    border: 1px solid rgba(75, 192, 192, 1);
+}
+
+main {
+    width: 85%;
+}
+
+h1 {
+    text-align: center;
+    margin: 70px 0 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 70px 0 0 50px;
+}
+
+li {
+    margin-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(64, 64, 64);
+    font-weight: 500;
+}
+
+.active {
+    font-weight: 600;
+}
